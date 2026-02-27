@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nemora Marketing Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Nemora Marketing Agency</h1>
+      <p>Building Digital Platforms That Reflect Your Ambition</p>
+      <a href="#contact" class="btn">Book a Consultation</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Digital Strategy</h3>
+          <p>We create tailored strategies for long-term growth.</p>
+        </div>
+        <div class="card">
+          <h3>Web Design</h3>
+          <p>Modern, responsive websites that convert visitors into clients.</p>
+        </div>
+        <div class="card">
+          <h3>Branding</h3>
+          <p>Elevate your brand with a cohesive, modern visual identity.</p>
+        </div>
+        <div class="card">
+          <h3>SEO & Marketing</h3>
+          <p>Grow your audience and get noticed online effectively.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h2>About Nemora</h2>
+      <p>We are a modern marketing agency helping businesses create professional, high-converting digital platforms. Our team combines strategy, design, and technical expertise to deliver results.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="formMsg"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Nemora Marketing Agency</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
